@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.company-logo {
+    height: 24px;
+    width: auto;
+}
