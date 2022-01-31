@@ -6,6 +6,7 @@
 .company-logo {
     height: 24px;
     width: auto;
+    display: inline-block;
 }
 
 #header {
@@ -16,4 +17,17 @@
 .starfish {
     height: 200px;
     width: auto;
+}
+
+.ocean, .species, .recycling, .diving {
+    display: inline-block;
+}
+
+.ocean-img, .species-img, .recycling-img, .diving-img {
+    height: 68px;
+    width: auto;
+}
+
+span {
+    display: block;
 }
