@@ -6,22 +6,40 @@
 .company-logo {
     height: 24px;
     width: auto;
-    display: inline-block;
 }
 
 #header {
     height: 450px;
+    width: 100%;    
+}
+
+#footer {
+    height: 70px;
     width: 100%;
+}
+
+#header, #footer {
+    background-color: #1F2937;
+}
+
+.header-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .links{
+    display: flex;
+    padding: 5px;
+}
+
+.header-main-body {
+    display: flex;
     
 }
 
-.logo, .links {
+.header-main {
     display: flex;
 }
-
-
-
-
 .starfish {
     height: 200px;
     width: auto;
