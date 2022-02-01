@@ -144,8 +144,39 @@ span {
     align-items: center;
 }
 
-
 #quotes-section figcaption{
     text-align: right;
 }
 
+#register-section {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register {
+    background-color: #3882F6;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-text {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.register h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.register button {
+    font-size: 18px;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+}
